@@ -1,0 +1,17 @@
+data/*
+!data/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+__pycache__/
+.venv/
+.env
+.DS_Store
