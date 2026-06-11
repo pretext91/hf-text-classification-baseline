@@ -1,0 +1,16 @@
+data:
+  dataset_name: "ag_news"
+  text_field: "text"
+  label_field: "label"
+  num_labels: 4
+
+model:
+  name: "distilbert-base-uncased"
+
+training:
+  output_dir: "outputs/distilbert_agnews"
+  learning_rate: 0.00002
+  batch_size: 16
+  num_epochs: 3
+  weight_decay: 0.01
+  seed: 42
