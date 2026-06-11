@@ -1,5 +1,5 @@
 data:
-  dataset_name: "ag_news"
+  dataset_name: "fancyzhx/ag_news"
   text_field: "text"
   label_field: "label"
   num_labels: 4
